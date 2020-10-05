@@ -1,0 +1,14 @@
+.safetime {
+    padding: 50px 0 70px 200px;
+    color: #212121;
+    background: url("img/clock.png") left calc(50% + 20px) no-repeat;
+    
+    .main-heading {
+        text-align: left;
+        max-width: 250px;
+    }
+}
+.safetime-desc {
+    line-height: 26px;
+    max-width: 730px;
+}
