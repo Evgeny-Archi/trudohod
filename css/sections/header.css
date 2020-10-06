@@ -12,7 +12,7 @@
 }
 
 @media (max-width: 1400px) {
-    .section-header {
+    .header {
         background-size: cover;
     }
 }

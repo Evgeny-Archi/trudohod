@@ -1,0 +1,52 @@
+.apm {
+    margin-bottom: 75px;
+    
+    .main-heading {
+        margin-top: 0;
+    }
+}
+.apm-items {
+    display: flex;
+    justify-content: center;
+}
+.apm-item {
+    width: 16.6666%;
+
+    &:nth-child(1) .color-box {
+        background: #e30016 url(img/apm-icon1.png) center 25px no-repeat;
+    }
+    &:nth-child(2) .color-box {
+        background: #fc5620 url(img/apm-icon2.png) center 25px no-repeat;
+    }
+    &:nth-child(3) .color-box {
+        background: #fcc033 url(img/apm-icon3.png) center 25px no-repeat;
+        color: #000;
+    }
+    &:nth-child(4) .color-box {
+        background: #0b9a4c url(img/apm-icon4.png) center 25px no-repeat;
+    }
+    &:nth-child(5) .color-box {
+        background: #123c52 url(img/apm-icon5.png) center 25px no-repeat;
+    }
+    &:nth-child(6) .color-box {
+        background: #007a78 url(img/apm-icon6.png) center 25px no-repeat;
+    }
+
+    .desc {
+        margin-top: 25px;
+        margin-bottom: 0;
+        padding: 0 15px;
+        text-align: left;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22px;
+        color: #232323;
+    }
+}
+.color-box {
+    height: 195px;
+    padding-top: 125px;
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+}
