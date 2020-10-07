@@ -1,0 +1,45 @@
+.offer {
+
+    .container {
+        padding-left: 250px;
+    }
+    .main-heading, .sub-heading, .desc {
+        text-align: left;
+    }
+
+    .desc {
+        line-height: 26px;
+    }
+
+    .technology {
+        padding: 80px 0 55px 0;
+
+        .sub-heading {
+            font-size: 24px;
+            font-weight: 500;
+        }
+    }
+    .warrning {
+        background: #e7e7e7;     
+
+        .container {
+            padding-top: 55px;
+            padding-bottom: 75px;
+            background: url('img/warrning.png') 65px 70px no-repeat;
+        }
+    }
+    .scheme {
+        background: #372d3b;
+        color: #fff;
+        padding: 40px 0 45px;
+    }
+}
+.btn-more {
+    border: 0;
+    cursor: pointer;
+    background: #aa3c57;
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-size: 18px;
+    color: #fff;
+}
