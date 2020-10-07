@@ -1,0 +1,49 @@
+.how-it-works {
+    background: #372d3b;
+    padding-top: 65px;
+
+    .main-heading {
+        margin-top: 0;
+        margin-bottom: 75px;
+        color: #fff;
+    }
+}
+.how-it-works-wrap {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+.how-it-works-item {
+    width: 30%;
+    padding-top: 260px;
+
+    &:nth-child(1) {
+        background: url('img/hiw-icon1.png') center top no-repeat;
+    }
+    &:nth-child(2) {
+        background: url('img/hiw-icon2.png') center top no-repeat;
+    }
+    &:nth-child(3) {
+        background: url('img/hiw-icon3.png') center top no-repeat;
+    }
+
+    p {
+        text-align: center;
+        color: #fff;
+        font-size: 24px;
+        margin-bottom: 0;
+    }
+}
+.how-it-works-note {
+    background: #b03d58;
+
+    p {
+        text-align: center;
+        color: #fff;
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 30px;
+        padding: 35px 0;
+        margin: 0;
+    }
+}
