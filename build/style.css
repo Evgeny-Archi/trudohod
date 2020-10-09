@@ -413,4 +413,50 @@ body {
     font-size: 18px;
     color: #fff;
 }
+.plus-minus .container {
+        padding-left: 250px;
+    }
+
+    .plus-minus .main-heading {
+        text-align: left;
+        max-width: 700px;
+        margin-top: 60px;
+    }
+.plus-list {
+    line-height: 26px;
+    max-width: 755px;
+    margin-bottom: 65px;
+}
+.plus-list li {
+        margin-top: 35px;
+        position: relative;
+    }
+.plus-list li:before {
+            content: "";
+            position: absolute;
+            width: 12px;
+            height: 3px;
+            top: 12px;
+            left: -22px;
+            background: #ea4b35;
+        }
+
+.success {
+    background: #1aaf5d;
+}
+
+.success .container {
+        padding-top: 55px;
+        padding-bottom: 55px;
+        background: url('img/success-icon.png') 90px center no-repeat;
+    }
+
+.success .desc {
+        max-width: 600px;
+        color: #fff;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 32px;
+        margin-bottom: 0;
+    }
 
