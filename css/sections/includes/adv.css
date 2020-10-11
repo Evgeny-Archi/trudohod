@@ -1,0 +1,40 @@
+.key-adv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 25px 25px;
+}
+.adv-item {
+    color: #fff;
+    line-height: 26px;
+    position: relative;
+    width: 25%;
+    padding-left: 65px;
+
+    &:before {
+        content: "";
+        width: 36px;
+        height: 36px;
+        position: absolute;
+        top: 7px;
+        left: 0;
+        background: #fcc033;
+    }
+    &:after {
+        content: "";
+        position: absolute;
+        /*width: 36px;
+        height: 36px;        
+        top: 0;
+        left: 0;
+        background: url(img/icon-check.png) center 12px no-repeat; */
+        border: 2px solid #000;
+        border-top: 0;
+        border-right: 0;
+        width: 16px;
+        height: 11px;
+        top: 17px;
+        left: 9px;
+        transform: rotate(-45deg);
+    }
+}

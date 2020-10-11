@@ -1,0 +1,59 @@
+.form {
+    background: url('img/form-bg.jpg') center top no-repeat;
+    background-size: cover;
+    margin-top: 150px;    
+
+    .container {    
+        padding: 330px 0 50px 0;
+        position: relative;
+
+        .form-wrap {
+            padding: 45px 40px;
+            background: #f3c500;
+            display: flex;
+            flex-direction: column;
+            width: 360px;
+            position: absolute;
+            top: -155px;
+            left: 50%;
+            transform: translateX(-50%);
+            -webkit-box-shadow: 0px 6px 10px 5px rgba(0,0,0,0.4);
+            -moz-box-shadow: 0px 6px 10px 5px rgba(0,0,0,0.4);
+            box-shadow: 0px 6px 10px 5px rgba(0,0,0,0.4);
+
+            .title {
+                font-size: 19.5px;
+                font-weight: 700;
+                margin-top: 0;
+                margin-bottom: 30px;
+            }
+
+            .input {
+                padding: 15px 40px;
+                background: #fff;
+                margin-bottom: 20px;
+                border: 1px solid #a9a9a9;
+                background-position: 12px center;
+                background-repeat: no-repeat;
+            }
+            .input-name {background-image: url('img/form-icon1.png')}
+            .input-comp {background-image: url('img/form-icon2.png')}
+            .input-tel {background-image: url('img/form-icon3.png')}
+            .input-email {background-image: url('img/form-icon4.png')}
+            .btn-send {
+                background: #01a185;
+                width: 100%;
+                padding: 15px 0;
+                color: #fff;
+                font-size: 14px;
+                font-weight: 400;
+                cursor: pointer;
+            }
+        }
+
+        .key-adv {
+            justify-content: space-between;
+            margin: 20px 0 0 0;
+        }
+    }
+}

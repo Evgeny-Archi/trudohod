@@ -1,0 +1,32 @@
+.footer {
+    background: #212121;
+    padding: 50px 0;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #fff;
+    }
+    .footer-logo {
+        display: flex;
+        align-items: center;
+        font-weight: 700;
+
+        > * {
+            margin-right: 30px;
+        }
+    }
+    .footer-phone {
+        color: #f3c500;
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .footer-email {
+        padding-left: 25px;
+        background: url('img/footer-email.png') left center no-repeat;
+    }
+    .footer-copy {
+        display: flex;
+    }
+}

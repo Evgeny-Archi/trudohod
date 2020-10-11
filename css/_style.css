@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
 @import "global.css";
+@import "sections/includes/adv.css";
 @import "sections/header.css";
 @import "sections/safetime.css";
 @import "sections/apm.css";
@@ -8,3 +9,5 @@
 @import "sections/offer.css";
 @import "sections/plus-minus.css";
 @import "sections/reviews.css";
+@import "sections/form.css";
+@import "sections/footer.css";

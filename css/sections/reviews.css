@@ -19,7 +19,8 @@
     .reviews-item {
         display: flex;
         flex-direction: row;
-        padding: 0 180px;
+        padding-right: 180px;
+        padding-left: 250px;
         position: relative;
         margin-bottom: 50px;        
 
@@ -28,7 +29,7 @@
             height: 136px;
             border-radius: 50%;
             position: absolute;
-            left: 0;
+            left: 70px;
             top: 50%;
             transform: translateY(-50%);
         }
