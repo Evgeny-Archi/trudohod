@@ -1,0 +1,93 @@
+.reviews {
+    padding-top: 60px;
+    padding-bottom: 100px;
+
+    .container {
+
+        .main-heading {
+            text-align: left;
+            padding-left: 250px;
+            margin-bottom: 60px;
+        }
+    }
+}
+
+.reviews-wrap {
+    display: flex;
+    flex-direction: column;
+
+    .reviews-item {
+        display: flex;
+        flex-direction: row;
+        padding: 0 180px;
+        position: relative;
+        margin-bottom: 50px;        
+
+        .reviews-avatar {
+            width: 136px;
+            height: 136px;
+            border-radius: 50%;
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        &:nth-child(even) .reviews-avatar {
+            left: auto;
+            right: 0;
+        }
+
+        .review-content {
+            background: #e7e7e7;
+            padding: 35px 50px;
+            position: relative;
+
+            .title {
+                font-weight: 700;
+                line-height: 26px;
+            }
+            .text {
+                color: #212121;
+                line-height: 26px;
+                font-weight: 100;
+            }
+
+            &:before {
+                content: "";
+                position: absolute;
+                top: 50%;
+                left: -24px;
+                transform: translateY(-50%);
+                width: 0;
+                height: 0;
+                border-style: solid;
+                border-width: 12px 24px 12px 0;
+                border-color: transparent #e7e7e7 transparent transparent;
+            }
+        }
+
+        &:nth-child(even) {
+            flex-direction: row-reverse;
+
+            .review-content {
+                &:before {
+                    content: none;
+                }
+
+                &:after {
+                    content: "";
+                    position: absolute;
+                    top: 50%;
+                    right: -24px;
+                    transform: translateY(-50%);
+                    width: 0;
+                    height: 0;
+                    border-style: solid;
+                    border-width: 12px 0 12px 24px;
+                    border-color: transparent transparent transparent #e7e7e7;
+                }
+            }
+        }
+    }
+}
