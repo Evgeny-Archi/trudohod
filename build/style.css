@@ -149,6 +149,13 @@ body {
     font-weight: 700;
 }
 
+@media (max-width: 1000px) {
+
+.top-bar {
+        background: #fff
+}
+    }
+
 .top-bar .container {
         height: 100%;
         display: flex;
